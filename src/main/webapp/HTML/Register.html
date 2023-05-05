@@ -1,0 +1,129 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Register</title>
+<link rel="stylesheet" href="../CSS/Register.css">
+<script src="../JS/countersign.js"></script>
+<style>
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	width: 100%;
+}
+
+.main {
+	height: 100%;
+	width: 40%;
+	margin: 0 30%;
+}
+
+.register-lines h1 {
+	text-align: center;
+}
+
+.register-lines p {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.userInput {
+	margin-top: 2rem;
+}
+
+.textInput input {
+	height: 4vh;
+	width: 50%;
+	margin: 1rem 25%;
+	border-radius: 3px;
+}
+
+#showPass {
+	height: 4vh;
+	width: 50%;
+	margin: 1rem 25%;
+	border-radius: 3px;
+}
+
+.sCheck {
+	margin: 0 2% 0 25%;
+}
+
+.dateInput input {
+	height: 4vh;
+	width: 50%;
+	margin: 1rem 25%;
+	border-radius: 3px;
+}
+
+.genderInput {
+	margin-top: 1rem;
+}
+
+.genderInput input {
+	border: none;
+	margin: 0 2% 0 25%;
+}
+
+.imageInput {
+	margin: 2rem 0 0 0;
+	display: flex;
+}
+
+.imageInput label {
+	margin: 0 3% 0 25%;
+}
+
+.upload input {
+	height: 4vh;
+	width: 50%;
+	margin: 2rem 25%;
+	border-radius: 3px;
+	background-color: black;
+	color: white;
+}
+
+.upload p {
+	margin-top: 0;
+	text-align: center;
+}
+</style>
+</head>
+<body>
+	<div class="main">
+		<div class="register-lines">
+			<h1>BECOME OUR MEMBER</h1>
+			<p>Create your online shopping account</p>
+			<p>and shop with us</p>
+		</div>
+		<div class="userInput">
+			<form action="../Login_Data_Insert" method="post" enctype="multipart/form-data">
+				<div class="textInput">
+					<input type="Email" placeholder="Email" name="Email" required><br>
+					<input type="text" placeholder="User Name" name="UserName" required><br>
+					<input type="number" placeholder="Phone No." name="Mobile" required><br>
+				</div>
+				<div class="passinput">
+					<input type="password" placeholder="Password" id="showPass" name="Password"
+						required> <input type="checkbox" class="sCheck"
+						onclick="counter()">Show Password
+				</div>
+				
+				
+				<div class="imageInput">
+					<label >Select your Photo:</label> <input type="file"
+						name="image" required>
+				</div>
+				<div class="upload">
+					<input type="Submit" value="Submit">
+					<p>
+						Already a member? <a href="./Login.html"> Sign In</a>
+					</p>
+				</div>
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>

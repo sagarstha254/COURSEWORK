@@ -1,0 +1,127 @@
+body{
+	
+border: none;
+	
+}  
+  .main{
+        background-color:aliceblue;
+        height:80px;
+        width: 100%;
+    }
+    
+      .second{
+		height: 40%;
+		width: 20%;
+    margin-left: 3%;
+    padding-top:2%;
+    
+    
+    
+    
+    }
+    input[type="text"] {
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        padding: 10px;
+        width: 200px;
+        margin-top: -20px;
+      }
+
+    .inner{
+    	height: 30%;
+    	width: 50%;
+      margin-left:30%; 
+      margin-top: -3%;
+      
+       
+
+    }
+    
+	a{
+		background-color:Black;
+        overflow: hidden;
+        border: solid;
+        border-color: white;
+        float: left;
+        color:whitesmoke; 
+        text-align: center;
+        padding:10px 30px 10px 30px;
+        text-decoration: none;
+        font-size: 20px;
+        border-radius: 30PX;
+
+	}
+
+	  a:hover {
+        background-color: #ddd;
+        color: black;
+        border-color: black;
+        
+    }
+
+    a.active{
+    	background-color:#ddd ;
+    	color: black;
+      
+    }
+    
+    
+
+    .login{
+    	float:right ;
+    	height: 30%;
+    	margin-right: 1%;
+      border-radius:0px;
+      border-color: white; 
+      font-size:20px; 
+      margin-top: -2.1%;
+      color: white;
+    }
+
+    .login a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .cart{
+     
+      height:10px;
+    }
+
+    .cart a{
+    	float: right;
+    	margin-top: -1.8%;
+    	margin-right:3%;
+    
+
+    }
+    .cart a {
+	font-size: 1.125em;
+	color: #333;
+	text-decoration: none;
+}
+   /* header styling */
+      #header {
+        background-color: #333;
+        color: #fff;
+        padding: 1%;
+        display: flex;
+        align-items: center;
+        width: 98%;
+        height: 80px;
+        
+      }
+
+      #header img{
+       width: 18%;
+       height: 100px;
+
+      }
+      #header h1{
+        margin-left: 30%;
+      }
+     #logo {
+        width: 500px;
+      }
+    
